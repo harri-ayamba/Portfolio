@@ -1,0 +1,43 @@
+.skill-section {
+    background-color: #111111;
+    color: #a8b8bb;
+    padding: 140px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.skill-section h3,
+.skill-section ul li
+
+{
+    animation: popInSmooth 1.2s ease-out forwards;
+}
+.skill-text {
+    font-size: 19px;
+}
+
+.skill-text h3 {
+    margin: 20px;
+}
+
+.skill-text ul li {
+    margin-top: 18px;
+}
+
+@keyframes popInSmooth {
+    0% {
+        opacity: 0;
+        transform: translateY(20px) scale(0.98);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(-4px) scale(1.01);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+

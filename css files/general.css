@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    background: #000000;
+    color: #FFFF;
+    justify-content: space-between;
+    padding:25px 40px;
+    border-bottom: 3px solid #727a7a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+
+}
+.hero {
+
+    background-color: #111111;
+    color: #a8b8bb;
+    padding: 120px 30px;
+    display: flex;
+  
+    justify-content: center;   /* center horizontally */
+    text-align: center;
+    align-items: center;
+   
+
+}
+
+.logo h1 {
+  margin: 0;
+  color: #a8b8bb;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.logo p {
+    margin-top: 10px;
+  font-size: 14px;
+  color: #a8b8bb;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:15px;
+    
+}
+
+nav a {
+    color: #a8b8bb;
+    justify-content: bottom;
+    align-items: bottom;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 21px;
+    font-weight: bold;
+    transition: color 0.15s ease, text-shadow 0.3s ease;
+
+
+}
+
+nav a:hover {
+    color:#b3b3b3;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.9);
+}
+
+footer {
+    background: #000000;;
+    color: #FFFF;
+    padding: 53px 10px;
+    padding-top: -12px;
+
+    justify-content: center;   /* center horizontally */
+    text-align: center;
+    border-top: 3px solid #727a7a;
+    
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .nav a {
+    padding: 5px 0;
+  }
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
