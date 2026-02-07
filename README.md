@@ -43,7 +43,7 @@ This portfolio is hosted using **GitHub Pages**.
 ---
 
 ## 📫 Contact
-- **LinkedIn:** https://www.linkedin.com/in/harri-noel-ayamba  
+- **LinkedIn:** https://www.linkedin.com/in/esuopi-harri-noel-ayamba-aa5b0139a/#:~:text=www.linkedin.com/in/esuopi%2Dharri%2Dnoel%2Dayamba%2Daa5b0139a
 - **GitHub:** https://github.com/harri-ayamba  
 
 ---
