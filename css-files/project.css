@@ -28,6 +28,25 @@ background-color: #111111;
   transition: 0.3s;
 }
 
+.card-project .p-1 {
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+a.project-link {
+  color: #C28F2C;          /* warm bronze */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a.project-link:hover {
+  color: #E6B65C;          /* lighter gold on hover */
+  text-decoration: underline;
+}
+
+a.project-link:visited {
+  color: #9A6B1F;          /* muted bronze for visited */
+}
+
 .card-project:hover {
   box-shadow: 0 0 30px #040404, 0 0 40px #444545;
   transform: translateY(-5px);
