@@ -8,7 +8,7 @@ This repository contains the source code for my **personal portfolio website**, 
 ---
 
 ## 👨‍💻 About Me
-I am a **Software Engineering student** with a strong foundation in **HTML and CSS** (Cisco certified).  
+I am a **Software Engineering student** with a strong foundation in **HTML and CSS** (Cisco certified) and **JAVASCRIPT Learning**
 I enjoy building clean, responsive web interfaces and I am actively growing toward **cybersecurity and DevSecOps**, with a strong interest in secure application development and Linux-based workflows.
 
 ---
@@ -33,7 +33,7 @@ I enjoy building clean, responsive web interfaces and I am actively growing towa
 ---
 
 ## 📄 Certifications
-- **Cisco Certified – HTML & CSS**
+- **Cisco Certified – HTML, CSS & Abit of JAVASCRIPT**
 
 ---
 
