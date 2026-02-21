@@ -1,87 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Personal portfolio showcasing my projects, skills, and certifications.">
-    <meta property="og:title" content=" Esuopi Harri-Noel Ayamba | Portfolio">
-    <meta property="og:description" content="Software Engineering Student with interest in web development and cybersecurity">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Esuopi Harri-Noel Ayamba | Software Engineering Student Portfolio</title>
-    <link rel="stylesheet" href="css-files/general.css">
-    <link rel="stylesheet" href="css-files/project.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="Personal portfolio showcasing my projects, skills, and certifications.">
+  <meta property="og:title" content="Esuopi Harri-Noel Ayamba | Portfolio">
+  <meta property="og:description" content="Software Engineering Student with interest in web development and cybersecurity">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esuopi Harri-Noel Ayamba | Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css files/general.css">
+  <link rel="stylesheet" href="css files/project.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <h1>Esuopi Harri-Noel Ayamba</h1>
-             <p>Software Engineering Student | Cybersecurity Enthusiast</p>
-        </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="skill.html">Skills</a>
-            <a href="project.html">Project</a>
-            <a href="certificate.html">Certificates</a>
-            <a href="contact.html">Contact</a>
-            
-        </nav>
-    </header>
-    <section class="project-section">
-        <div class="project-text">
-  <h2>My Projects</h2>
+  <header class="header">
+    <div class="logo">
+      <div class="logo-mark" aria-hidden="true"></div>
+      <div class="logo-text">
+        <h1>Esuopi Harri-Noel Ayamba</h1>
+        <p>Software Engineering Student | Cybersecurity Enthusiast</p>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skill.html">Skills</a>
+      <a class="active" href="project.html">Projects</a>
+      <a href="certificate.html">Certificates</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-  <div class="card-project">
-    <h3>Portfolio Website</h3>
-    <p>
-      A modern personal portfolio built using HTML and CSS to showcase my
-      skills, certifications, and projects.
-    </p>
-  </div>
+  <main class="page">
+    <section class="section">
+      <div class="section-head fade-up">
+        <h2>My Projects</h2>
+        <p>Personal builds and learning projects that showcase my progress.</p>
+      </div>
+      <div class="grid project-grid">
+        <article class="card project-card fade-up" style="--delay: 0.05s;">
+          <h3>Portfolio Website</h3>
+          <p>A modern personal portfolio built using HTML and CSS to showcase my skills, certifications, and projects.</p>
+        </article>
+        <article class="card project-card fade-up" style="--delay: 0.08s;">
+          <h3>Basic C Programs</h3>
+          <p>A collection of beginner C programs built using Code::Blocks while learning programming fundamentals.</p>
+        </article>
+        <article class="card project-card fade-up" style="--delay: 0.11s;">
+          <h3>Binary ⇄ Decimal Converter</h3>
+          <p>A lightweight web tool that converts numbers between binary and decimal instantly. Built with HTML, CSS, and vanilla JavaScript.</p>
+          <a class="project-link" href="https://harri-ayamba.github.io/binary-decimal-converter/" target="_blank" rel="noopener">Live Demo</a>
+        </article>
+        <article class="card project-card fade-up" style="--delay: 0.14s;">
+          <h3>Number Conversion Hub</h3>
+          <p>A lightweight web tool for converting between Binary, Decimal, Hexadecimal, Octal, and ASCII.</p>
+          <a class="project-link" href="https://harri-ayamba.github.io/Number-Conversion-Hub-/" target="_blank" rel="noopener">Live Demo</a>
+        </article>
+        <article class="card project-card fade-up" style="--delay: 0.17s;">
+          <h3>My Portfolio</h3>
+          <p>A modern personal portfolio built using HTML and CSS to showcase my skills, certifications, and projects.</p>
+          <a class="project-link" href="https://harri-ayamba.github.io/Portfolio/" target="_blank" rel="noopener">Live Demo</a>
+        </article>
+        <article class="card project-card fade-up" style="--delay: 0.2s;">
+          <h3>Future Cybersecurity Tools</h3>
+          <p>Planned security tools such as password strength checkers and secure login systems.</p>
+        </article>
+      </div>
+    </section>
+  </main>
 
-  <div class="card-project">
-    <h3>Basic C Programs</h3>
-    <p>
-      A collection of beginner C programs built using Code::Blocks while
-      learning programming fundamentals.
-    </p>
-  </div>
-<div class="card-project">
-    <h3>Binary ⇄ Decimal Converter</h3>
-    <p class="p-1">A lightweight web tool that converts numbers between binary and decimal instantly. Built with HTML, CSS, and vanilla JavaScript, with input validation and a clean, responsive UI.</p>
-    <a class="project-link" href="https://harri-ayamba.github.io/binary-decimal-converter/" target="_blank">
-  Binary ⇄ Decimal Converter (Live Demo)
-</a>
- </div>
-  <div class="card-project">
-    <h3>Number Conversion Hub</h3>
-    <p class="p-1">A lightweight web tool for converting between Binary, Decimal, Hexadecimal, Octal, and ASCII. Built with HTML, CSS, and vanilla JavaScript, featuring input validation and a clean, responsive UI.</p>
-    <a class="project-link" href="https://harri-ayamba.github.io/Number-Conversion-Hub-/" target="_blank">
- Number Conversion Hub (Live Demo)
-</a>
+  <footer>
+    &copy; 2026 Esuopi Harri-Noel Ayamba — Built with HTML &amp; CSS
+  </footer>
+  <script>
+    const ready = () => document.body.classList.add("page-ready");
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", ready);
+    } else {
+      ready();
+    }
 
-  </div>
-  <div class="card-project">
-    <h3>My Portfolio</h3>
-    <p class="p-1">A modern personal portfolio built using HTML and CSS to showcase my skills, certifications, and projects</p>
-    <a class="project-link" href=" https://harri-ayamba.github.io/Portfolio/" target="_blank">
-My Portfolio (Live Demo)
-</a>
-
-  </div>
-  <div class="card-project">
-    <h3>Future Cybersecurity Tools</h3>
-    <p>
-      Planned security tools such as password strength checkers and secure
-      login systems.
-    </p>
-  </div>
-  </div>
-</section>
-
-</section>
-<footer>
- © 2026 Esuopi Harri-Noel Ayamba — Built with HTML & CSS
-</footer>
-
+    document.querySelectorAll("a[href]").forEach((link) => {
+      const url = new URL(link.href, window.location.href);
+      if (url.origin !== window.location.origin) return;
+      if (url.pathname !== window.location.pathname && !link.hasAttribute("data-no-fade")) {
+        link.addEventListener("click", (event) => {
+          event.preventDefault();
+          document.body.classList.add("page-fade-out");
+          setTimeout(() => {
+            window.location.href = link.href;
+          }, 120);
+        });
+      }
+    });
+  </script>
 </body>
 </html>
