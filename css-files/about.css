@@ -1,49 +1,36 @@
-.about-section {
-    background-color: #111111;
-    color: #a8b8bb;
-    padding: 120px 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     animation: fadeInUp 1s ease-in-out;
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 24px;
+  margin-top: 32px;
+  align-items: start;
 }
 
-.about-section h1,
-.about-section p {
-    animation: popInSmooth 1.2s ease-out forwards;
+.about-copy p {
+  margin-bottom: 16px;
+  color: var(--muted);
 }
 
-.about-text h2 {
-    margin-top: 90px;
+.about-card {
+  background: linear-gradient(160deg, rgba(96, 165, 250, 0.14), rgba(94, 234, 212, 0.08));
+  border: 1px solid rgba(96, 165, 250, 0.35);
 }
 
-.about-text {
-    width: 800px;
-    font-size: 19px;
+.cert-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(245, 158, 11, 0.18);
+  color: var(--gold);
+  border: 1px solid rgba(245, 158, 11, 0.45);
+  font-weight: 600;
+  margin-top: 16px;
 }
 
-.about-text p {
-   line-height: 40px;
-   margin: 20px;
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
 }
-
-.about-text h3 {
-    margin: 20px;
-}
-
-@keyframes popInSmooth {
-    0% {
-        opacity: 0;
-        transform: translateY(20px) scale(0.98);
-    }
-    60% {
-        opacity: 1;
-        transform: translateY(-4px) scale(1.01);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
-}
-
-
