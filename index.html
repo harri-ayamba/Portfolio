@@ -1,65 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Personal portfolio showcasing my projects, skills, and certifications.">
-    <meta property="og:title" content=" Esuopi Harri-Noel Ayamba | Portfolio">
-    <meta property="og:description" content="Software Engineering Student with interest in web development and cybersecurity">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Esuopi Harri-Noel Ayamba | Software Engineering Student Portfolio</title>
-    <link rel="stylesheet" href="css files/general.css">
-    <link rel="stylesheet" href="css files/index.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="Personal portfolio showcasing my projects, skills, and certifications.">
+  <meta property="og:title" content="Esuopi Harri-Noel Ayamba | Portfolio">
+  <meta property="og:description" content="Software Engineering Student with interest in web development and cybersecurity">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esuopi Harri-Noel Ayamba | Software Engineering Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css files/general.css">
+  <link rel="stylesheet" href="css files/index.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <h1>Esuopi Harri-Noel Ayamba</h1>
-             <p>Software Engineering Student | Cybersecurity Enthusiast</p>
-        </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="skill.html">Skills</a>
-            <a href="project.html">Project</a>
-            <a href="certificate.html">Certificates</a>
-            <a href="contact.html">Contact</a>
-            
-        </nav>
-    </header>
-    <section class="hero">
-        <div class="All">
-        <div class="content-info">
-            <h1>Welcome to My Portfolio</h1>
-            <p>
-               <span class="typing"></span>
-           </p>
-           <a class="btn-1" href="project.html">View My Work</a>
-        </div>
-        
-           <a href="about.html"><img class="profile-picture" src="images/picture.jpg" alt="Esuopi Harri-Noel Ayamba"></a> 
-        
-        </div>
+  <header class="header">
+    <div class="logo">
+      <div class="logo-mark" aria-hidden="true"></div>
+      <div class="logo-text">
+        <h1>Esuopi Harri-Noel Ayamba</h1>
+        <p>Software Engineering Student | Cybersecurity Enthusiast</p>
+      </div>
+    </div>
+    <nav>
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skill.html">Skills</a>
+      <a href="project.html">Projects</a>
+      <a href="certificate.html">Certificates</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-        <script>
-const text = "I am a Level 1 Software Engineering student, certified in HTML & CSS by Cisco Networking Academy, passionate about cybersecurity and web development.";
-let i = 0;
-const speed = 30;
-
-function typeWriter() {
-  if (i < text.length) {
-    document.querySelector(".typing").innerHTML += text.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-
-typeWriter();
-</script>
+  <main class="page">
+    <section class="hero fade-up hero-code">
+      <div class="hero-text">
+        <p class="eyebrow">Level 1 Software Engineering Student</p>
+        <h1>Building the web with security in mind.</h1>
+        <p class="lead">
+          I am a Software Engineering student certified in HTML &amp; CSS by Cisco Networking
+          Academy, passionate about cybersecurity and web development.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="project.html">View Projects</a>
+          <a class="btn ghost" href="contact.html">Contact Me</a>
+        </div>
+        <div class="pill-row">
+          <span class="pill">Cisco Certified in HTML &amp; CSS</span>
+          <span class="pill">Web Development</span>
+          <span class="pill">Secure Coding</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-glow"></div>
+        <img class="profile-picture" src="images/picture.jpg" alt="Esuopi Harri-Noel Ayamba">
+      </div>
     </section>
 
-    <footer>
-         &copy; 2026 Esuopi Harri-Noel Ayamba — Built with HTML & CSS
-    </footer>
+    <section class="section">
+      <div class="section-head fade-up">
+        <h2>Featured Projects</h2>
+        <p>Highlights from recent web tools and learning projects.</p>
+      </div>
+      <div class="grid project-grid">
+        <article class="card project-card fade-up" style="--delay: 0.05s;">
+          <h3>Binary ⇄ Decimal Converter</h3>
+          <p>A lightweight web tool that converts numbers between binary and decimal instantly.</p>
+          <a class="project-link" href="https://harri-ayamba.github.io/binary-decimal-converter/" target="_blank" rel="noopener">Live Demo</a>
+        </article>
+        <article class="card project-card fade-up" style="--delay: 0.1s;">
+          <h3>Number Conversion Hub</h3>
+          <p>Converts between Binary, Decimal, Hexadecimal, Octal, and ASCII.</p>
+          <a class="project-link" href="https://harri-ayamba.github.io/Number-Conversion-Hub-/" target="_blank" rel="noopener">Live Demo</a>
+        </article>
+        <article class="card project-card fade-up" style="--delay: 0.15s;">
+          <h3>Personal Portfolio</h3>
+          <p>A modern personal portfolio built with HTML and CSS to showcase my work.</p>
+          <a class="project-link" href="https://harri-ayamba.github.io/Portfolio/" target="_blank" rel="noopener">Live Demo</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head fade-up">
+        <h2>Skills Snapshot</h2>
+        <p>Core areas I am focused on while growing as a software engineer.</p>
+      </div>
+      <div class="grid skill-grid">
+        <article class="card skill-card fade-up" style="--delay: 0.05s;">
+          <h3>Programming</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C (Basics)</li>
+            <li>JavaScript (Learning)</li>
+          </ul>
+        </article>
+        <article class="card skill-card fade-up" style="--delay: 0.1s;">
+          <h3>Tools &amp; Platforms</h3>
+          <ul>
+            <li>Linux</li>
+            <li>Git (Basics)</li>
+            <li>VS Code</li>
+            <li>Packet Tracer</li>
+            <li>Cisco Networking Academy</li>
+          </ul>
+        </article>
+        <article class="card skill-card fade-up" style="--delay: 0.15s;">
+          <h3>Cybersecurity Interests</h3>
+          <ul>
+            <li>DevSecOps</li>
+            <li>Application Security</li>
+            <li>Secure Coding</li>
+          </ul>
+        </article>
+        <article class="card skill-card fade-up" style="--delay: 0.2s;">
+          <h3>Programming Style</h3>
+          <ul class="list">
+            <li>Readable, consistent formatting</li>
+            <li>Responsive-first layout thinking</li>
+            <li>Security-aware decisions</li>
+            <li>Small, reusable components</li>
+            <li>Iterative improvement and testing</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Esuopi Harri-Noel Ayamba — Built with HTML &amp; CSS
+  </footer>
+  <script>
+    const ready = () => document.body.classList.add("page-ready");
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", ready);
+    } else {
+      ready();
+    }
+
+    document.querySelectorAll("a[href]").forEach((link) => {
+      const url = new URL(link.href, window.location.href);
+      if (url.origin !== window.location.origin) return;
+      if (url.pathname !== window.location.pathname && !link.hasAttribute("data-no-fade")) {
+        link.addEventListener("click", (event) => {
+          event.preventDefault();
+          document.body.classList.add("page-fade-out");
+          setTimeout(() => {
+            window.location.href = link.href;
+          }, 120);
+        });
+      }
+    });
+  </script>
 </body>
 </html>
